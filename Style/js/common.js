@@ -776,7 +776,7 @@ $(function(){
 	if(typeof(bookid) == "undefined"){
 		$('#imgload img').lazyload({
 			original: '_src',
-			placeholder: '/images/ajax-loading.gif',
+			placeholder: 'https://cdn.jsdelivr.net/gh/wpys/xgwz/images/ajax-loading.gif',
 			threshold: 0,
 			effect: showeffect,
 			effectspeed: '200',
