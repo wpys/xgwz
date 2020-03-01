@@ -776,11 +776,11 @@ $(function(){
 	if(typeof(bookid) == "undefined"){
 		$('#imgload img').lazyload({
 			original: '_src',
-			placeholder: '/images/ajax-loading.gif',
+			placeholder: 'https://cdn.jsdelivr.net/gh/wpys/xgwz/Style/images/imgph.0.1.png',
 			threshold: 0,
 			effect: showeffect,
 			effectspeed: '200',
-			onerror: '/images/nopic.jpg'
+			onerror: 'https://cdn.jsdelivr.net/gh/wpys/xgwz/Style/images/imgph.0.1.png'
 		})
 	}
 });
